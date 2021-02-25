@@ -1,0 +1,12 @@
+legacy:
+  adapter: mysql
+  database: helloworld
+  hostname: 127.0.0.1
+  username: root
+  password: 37661600zz
+  socket: C:\Program data\mysql\mysql server 8.0\data\helloworld
+  pool: 5
+  timeout: 5000
+
+queries:
+  - "SELECT * FROM toys"
